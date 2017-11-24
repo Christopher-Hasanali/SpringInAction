@@ -10,8 +10,15 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them:
 
 ```
-1) Install ant
-2) Install ivy
+Required lib:
+1) spring-core 3.2.4.RELEASE
+2) spring-context-3.2.4.RELEASE
+3) spring-expression-3.2.4.RELEASE
+4) spring-beans-3.2.4.RELEASE
+5) spring-aop-3.2.4.RELEASE
+6) commons-logging-1.2
+7) aspectjweaver-1.7.2
+8) aopalliance-1.0
 ```
 
 ### Installing
@@ -20,8 +27,7 @@ A step by step series of examples that tell you have to get a development env ru
 
 
 ```
-ant release  #For running application, Check other targets in build.xml file
-ant springrelease && ant springrun #for running spring application via Apache Ant + Ivy
+run the main method after compiling and setting classpath for main method
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
